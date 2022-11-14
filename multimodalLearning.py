@@ -9,7 +9,7 @@ class MultimodalNetwork(nn.Module):
     #   fcHiddenSize (int): hidden size for fully-connected layer
     #   gruHiddenSize (int): hidden size for gru layer
     #   gruInputSize (int): input size for each cell in the gru layer
-    #   embeddingModel (word2vec model): pretrained word2vec model
+    #   embeddings: pretrained embeddings
     #   vocabSize (int): size of the vocabulary from the word2vec model
     #   embeddingDim (int): size of the embedding from the word2vec model (i.e. 300)
     #   numFilters (int): # of channels for CNN
@@ -26,7 +26,7 @@ class MultimodalNetwork(nn.Module):
                  timeInputSize,
                  gruHiddenSize,
                  gruInputSize,
-                 embeddingModel,
+                 embeddings,
                  vocabSize,
                  embeddingDim,
                  numFilters,
@@ -52,7 +52,7 @@ class MultimodalNetwork(nn.Module):
 
         ## EMBEDDING LAYER
         self.embedding = nn.Embedding(vocabSize, embeddingDim, padding_idx=0)
-        self.embedding.weight = nn.Parameter(torch.from_numpy(embeddingModel.vectors))
+        self.embedding.weight = nn.Parameter(embeddings)
         if freezeEmbeddings:
             self.embedding.requires_grad = False
         
