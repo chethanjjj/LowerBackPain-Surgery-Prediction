@@ -1,2 +1,16 @@
-# Predicting Decompression Surgery by Applying Machine Learning to Patients’ Structured and Unstructured Health Data
+# Multimodal Deep Learning for Decompression Surgery using Patients’ Structured and Unstructured Health Data
 ![alt text](https://github.com/chethanjjj/LowerBackPain-Surgery-Prediction/blob/master/image.png?raw=true)
+
+## Overview
+
+
+## Data Gathering
+The de-identified dataset analyzed during the current study is available through a private archive hosted by the Resource Core of the University of Washington Clinical Learning, Evidence And Research (CLEAR) Center for Musculoskeletal Disorders upon request (https://theclearcenter.org/about/resource-core/). The request will be reviewed by the CLEAR Center Resource Core Director and Associate Director for scientific soundness. Representatives of the LIRE data collection sites will also have the opportunity to review and approve requests. Costs of proposal review and data preparation will be borne by the requester. For further questions about the request, please contact Jeffrey G. Jarvik, jarvikj@uw.edu.
+
+## Phenotyping
+
+## Data Preprocessing
+
+## Machine Learning
+
+## Evaluation
