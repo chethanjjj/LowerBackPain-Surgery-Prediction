@@ -2,6 +2,7 @@
 
 ## Overview
 ![alt text](https://github.com/chethanjjj/LowerBackPain-Surgery-Prediction/blob/master/image.png?raw=true)
+
 In this study, we predicted early (within 2 months) and late (within 12 months after a 2 month gap) decompression surgery for patients with Lumbar Disc Herniation/Lumbar Spinal Stenosis (LDH/LSS) by applying Multimodal Learning (MDL) to their structured and unstructured data and comparing the performance to a benchmark model, LASSO logistic regression
 
 ## Data Gathering
